@@ -1,0 +1,194 @@
+body{
+        background-image: linear-gradient(to right top, #f79400, #ff5846, #ff0084, #ce24c4, #2755f2);
+}
+h1{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        margin-top: 4.4em;
+        color: cyan;
+        
+}
+#header
+{
+        width: 100%;
+        height: 20vh;
+        font-size: 2vh;
+        background-image: linear-gradient(to right top, #00e59f, #00e1ca,
+         #1cd9e4, #6fcfea, #9ec5df,
+          #99b8d8, #97abd0, #979dc6, #8683c4, #7f66be, #7f43b1, #84009d);
+        position: fixed;
+        top: 0%;
+}
+#header img
+{
+        float: left;
+        padding-top: 12px;
+        margin-left: 2rem;     
+}
+#nav-bar
+{
+        line-height: 3em;
+       
+}
+.nav-link
+{
+        float: right;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form
+{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+input[type="email"]
+{
+        width: 100%;
+        font-size: 2rem;
+        border-radius: 25px;
+        padding: 2px;
+        text-align: center;
+        color: orange;
+}
+
+#submit
+{
+background-color: green;
+color: white;
+margin-left: 10rem;
+margin-top: 1rem;
+border-radius: 25px;
+}
+
+#embed
+{       
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+#video
+{
+       max-width: 516px;
+       height: 50vh;
+       width:100%;
+       margin-bottom: 4rem;
+}
+#desc{
+        text-align: center;
+        color:yellow;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 5vh;
+}
+
+ @media (min-width: 576px) { 
+         
+        #nav-bar
+        {
+        display: flex;
+        line-height: 3em;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        }
+
+        #header
+        {
+        width: 100%;
+        height: 20vh;
+        font-size: 2em;
+        display: block;
+        background-color: rgb(208, 241, 87);
+        position: fixed;
+        top: 0%;
+        }
+
+        #header img
+        {
+        display: block;
+        padding-top: 12px;
+        margin-left: 2rem;     
+        }     
+  }
+
+  .items-all
+  {
+          height: 85vh;
+          display: flex;
+          justify-content: space-evenly;
+          flex-wrap:wrap-reverse;
+          align-items: flex-end;
+          background-image: linear-gradient(to right top, #00e59f, #00e1ca, #1cd9e4, #6fcfea,
+          #9ec5df, #99b8d8, #97abd0,
+           #979dc6, #8683c4, #7f66be, #7f43b1, #84009d);
+          
+  }
+
+  #feature
+  {
+          background-color: dodgerblue;
+          width: 30%;
+          height: 50%;
+  }
+
+  #How-it-works
+  {
+          background-color: orangered;
+          width: 30%;
+          height: 50%;
+  }
+
+  #Pricing
+  {
+          background-color: green;
+          width: 30%;
+          height: 50%;
+  }
+
+   i {
+      font-size: 5vw;
+      position: relative;
+      left: 40%;
+      margin-top: 1.0rem;
+
+   }
+
+   .simp-head
+   {
+          font-weight: bolder;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: white;
+          text-align: center;
+          margin-top: 3px;
+   }
+   .data-exp
+   {
+           color: black;
+           font-weight: normal;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           margin: 10px;
+   }
+
+  .closed
+  {
+        width: fit-content;
+        float: right;
+        line-height: 3em;
+        word-spacing: 12px;
+        margin-right: 4em;
+        margin-bottom: 2em;
+        font-size: 1.2em;
+        
+       
+  }
+  
+  a{
+          text-decoration: none;
+          color: white;
+  }
